@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 namespace Assets.Script
 {
-    public class CardDeck : MonoBehaviour
+    public class CardDeck : MonoBehaviour, IPointerDownHandler
     {
         [SerializeField]
         private BoxCollider2D _collider;
 
-        private Vector3 _offset = new Vector3(0.015f, 0.015f, 0);
+        private Vector3 _offset = new Vector3(0.02f, 0.02f, 0);
 
         private List<Card> _cards = new();
 
@@ -53,8 +54,11 @@ namespace Assets.Script
         //    _cards.Add(card);
         //}
 
-        public void OnMouseDown()
+        public void OnPointerDown(PointerEventData eventData)
         {
+            if (eventData.pointerPressRaycast.gameObject != gameObject)
+                return;
+
             OnClick?.Invoke(this);
         }
 

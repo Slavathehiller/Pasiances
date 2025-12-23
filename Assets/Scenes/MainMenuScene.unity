@@ -730,7 +730,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -906,7 +906,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 82, y: -436}
-  m_SizeDelta: {x: 758.7914, y: 287.199}
+  m_SizeDelta: {x: 900, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &635006788
 MonoBehaviour:
@@ -1435,7 +1435,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 81, y: -367}
-  m_SizeDelta: {x: 758.7914, y: 287.199}
+  m_SizeDelta: {x: 900, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1535539411
 MonoBehaviour:
@@ -1624,7 +1624,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 81, y: -265}
-  m_SizeDelta: {x: 758.7914, y: 287.199}
+  m_SizeDelta: {x: 900, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1663733310
 MonoBehaviour:

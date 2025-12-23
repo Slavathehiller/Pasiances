@@ -26,7 +26,7 @@ public class CardSalute : MonoBehaviour
 
     private void CreateNewDeck()
     {
-        _manager.ReInitCards(DeckType.Deck52, false);
+        _manager.ReInitCards(DeckType.Deck36, false);
         _manager.DistributeCards(new List<CardDeck> { _deck });
     }
 

@@ -113,6 +113,7 @@ public class Card : MonoBehaviour
         StopAllCoroutines();
         _rigidBody.angularVelocity = 0;
         transform.localRotation = Quaternion.identity;
+        PutDown();
     }
     public void SetGravityOn()
     {
